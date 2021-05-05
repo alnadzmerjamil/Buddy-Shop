@@ -1,0 +1,181 @@
+@media only screen and (max-width: 768px) {
+  .main-container-addcategory {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .mini-container-addcategory {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 20px 20px;
+    text-align: left;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 3px 1px gray;
+  }
+  .div-for-closed {
+    width: 100%;
+    text-align: right;
+  }
+  .div-for-view-add {
+    margin-bottom: 10px;
+  }
+  .div-for-view-add button {
+    padding: 10px;
+    font-size: 11px;
+    border: 1px solid lightgray;
+  }
+  .main-div-for-showViewCatForm,
+  .main-div-for-showAddCatForm {
+    background-color: lightgray;
+    padding: 10px;
+  }
+  .lblmaincat {
+    margin-bottom: 10px;
+  }
+  .div-for-input-maincat-editBtn {
+    background-color: lightgray;
+  }
+  .input-maincat {
+    border: none;
+    outline: none;
+    padding: 5px;
+    border: 1px solid lightgray;
+  }
+  .editBtn {
+    padding: 6px 10px;
+    border: 1px solid lightgray;
+  }
+  .input-edit {
+    border: none;
+    outline: none;
+    padding: 5px;
+    border: 1px solid lightgray;
+  }
+
+  .div-for-input-edit button {
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+  }
+
+  /* add category */
+
+  .newBtn,
+  .newSubCatSaveBtn {
+    padding: 6px 10px;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+  }
+  .newSubCatSaveBtn {
+    margin-top: 10px;
+  }
+  .div-lblmaincat,
+  .div-lblsubcat {
+    margin-bottom: 5px;
+  }
+}
+
+/* tab */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main-container-addcategory {
+    width: 65%;
+    padding: 10px;
+    margin: auto;
+  }
+  .mini-container-addcategory {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 20px 20px;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0px 0px 3px 1px gray;
+  }
+  .div-for-closed {
+    width: 100%;
+    text-align: right;
+  }
+  .div-for-view-add {
+    margin-bottom: 10px;
+  }
+  .div-for-view-add button {
+    padding: 10px;
+    border: 1px solid lightgray;
+    font-size: 13px;
+  }
+}
+
+/* pc */
+@media only screen and (min-width: 992px) {
+  .main-container-addcategory {
+    width: 50%;
+    padding: 10px;
+    /* background-color: rgb(219, 56, 56); */
+  }
+  .mini-container-addcategory {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 20px 20px;
+    text-align: left;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 3px 1px gray;
+  }
+  .div-for-closed {
+    width: 100%;
+    text-align: right;
+  }
+  .div-for-view-add {
+    margin-bottom: 10px;
+  }
+  .div-for-view-add button {
+    padding: 10px;
+    border: 1px solid lightgray;
+  }
+  .main-div-for-showViewCatForm,
+  .main-div-for-showAddCatForm {
+    background-color: lightgray;
+    padding: 10px;
+  }
+  .lblmaincat {
+    margin-bottom: 10px;
+  }
+  .div-for-input-maincat-editBtn {
+    background-color: lightgray;
+  }
+  .input-maincat {
+    border: none;
+    outline: none;
+    padding: 5px;
+    border: 1px solid lightgray;
+  }
+  .editBtn {
+    padding: 6px 10px;
+    border: 1px solid lightgray;
+  }
+  .input-edit {
+    border: none;
+    outline: none;
+    padding: 5px;
+    border: 1px solid lightgray;
+  }
+
+  .div-for-input-edit button {
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+  }
+
+  /* add category */
+
+  .newBtn,
+  .newSubCatSaveBtn {
+    padding: 6px 10px;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+  }
+  .newSubCatSaveBtn {
+    margin-top: 10px;
+  }
+  .div-lblmaincat,
+  .div-lblsubcat {
+    margin-bottom: 5px;
+  }
+}

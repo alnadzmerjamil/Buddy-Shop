@@ -1,0 +1,300 @@
+@media only screen and (max-width: 767px) {
+  .preview {
+    width: 100%;
+  }
+  .mini-preview {
+    width: 100%;
+  }
+  .div-for-main-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px;
+    background-color: whitesmoke;
+  }
+  .div-for-xbtn {
+    width: 100%;
+    text-align: right;
+    padding: 2px;
+    margin-bottom: 10px;
+  }
+  #xbtn {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 13px;
+    border-radius: 5px;
+    color: lightgray;
+    background-color: #9089ad;
+  }
+
+  .div-for-img-preview {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+  }
+  .div-for-arrow {
+    width: 15%;
+    padding: 2px;
+    cursor: pointer;
+  }
+  .arrowRight,
+  .arrowLeft {
+    font-size: 20px;
+    color: #685f90;
+  }
+
+  .div-for-display-img {
+    width: 69%;
+    padding: 5px;
+  }
+  #img-preview {
+    width: 100%;
+  }
+  .div-for-mini-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px;
+    background-color: white;
+  }
+  .content {
+    margin-bottom: 10px;
+    font-size: 15px;
+    /* background-color: crimson; */
+  }
+  .div-for-details,
+  .div-for-description {
+    width: 49.5%;
+    text-align: left;
+    /* background-color: rgb(66, 146, 170); */
+  }
+  .div-for-description {
+    text-align: left;
+    font-size: 12px;
+  }
+  .div-for-btns {
+    width: 100%;
+    padding: 5px;
+    /* background-color: darkgoldenrod; */
+  }
+  .btns {
+    padding: 5px 8px;
+    font-size: 10px;
+    border-radius: 4px;
+    color: lightgray;
+    background-color: #685f90;
+  }
+  #buynow-btn {
+    margin-right: 5px;
+  }
+}
+/* tab */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .preview {
+    width: 100%;
+  }
+  .mini-preview {
+    width: 100%;
+  }
+  .div-for-main-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px;
+    background-color: whitesmoke;
+  }
+  .div-for-xbtn {
+    width: 100%;
+    text-align: right;
+    padding: 2px;
+    margin-bottom: 10px;
+  }
+  #xbtn {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    border-radius: 5px;
+    color: lightgray;
+    background-color: #9089ad;
+  }
+
+  .div-for-img-preview {
+    width: 39.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+  }
+  .div-for-arrow {
+    width: 15%;
+    padding: 2px;
+    cursor: pointer;
+  }
+  .arrowRight,
+  .arrowLeft {
+    font-size: 25px;
+    color: #685f90;
+  }
+
+  .div-for-display-img {
+    width: 69%;
+    padding: 5px;
+  }
+  #img-preview {
+    width: 100%;
+  }
+  .div-for-mini-content {
+    width: 59.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px;
+    background-color: whitesmoke;
+  }
+  .content {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .div-for-details,
+  .div-for-description {
+    width: 49.5%;
+    text-align: left;
+  }
+  .div-for-description {
+    text-align: left;
+  }
+  .div-for-btns {
+    width: 100%;
+    padding: 5px;
+  }
+  .btns {
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 4px;
+    color: lightgray;
+    background-color: #685f90;
+  }
+
+  #buynow-btn {
+    margin-right: 5px;
+  }
+}
+/* pc */
+@media only screen and (min-width: 992px) {
+  .preview {
+    width: 100%;
+  }
+  .mini-preview {
+    width: 100%;
+  }
+  .div-for-main-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px;
+    background-color: whitesmoke;
+  }
+  .div-for-xbtn {
+    width: 100%;
+    text-align: right;
+    padding: 2px;
+    margin-bottom: 10px;
+    /* background-color: darkgoldenrod; */
+  }
+  #xbtn {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: lightgray;
+    background-color: #9089ad;
+  }
+
+  #xbtn:hover {
+    background-color: #685f90;
+  }
+  .div-for-img-preview {
+    width: 49.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+  }
+  .div-for-arrow {
+    width: 15%;
+    padding: 2px;
+    cursor: pointer;
+  }
+  .arrowRight,
+  .arrowLeft {
+    font-size: 50px;
+    color: #685f90;
+  }
+  .arrowRight:hover,
+  .arrowLeft:hover {
+    color: #5b5188;
+  }
+
+  .div-for-display-img {
+    width: 69%;
+    padding: 5px;
+  }
+  #img-preview {
+    width: 100%;
+  }
+  .div-for-mini-content {
+    width: 49.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: white;
+  }
+  .content {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .div-for-details,
+  .div-for-description {
+    width: 49.5%;
+    text-align: left;
+  }
+  .div-for-description {
+    text-align: left;
+  }
+  .div-for-btns {
+    width: 100%;
+    padding: 5px;
+  }
+  .btns {
+    padding: 7px 10px;
+    font-size: 15px;
+    color: lightgray;
+    border-radius: 4px;
+    background-color: #685f90;
+  }
+  .btns:hover {
+    background-color: #5b5188;
+  }
+  #buynow-btn {
+    margin-right: 7px;
+  }
+}

@@ -1,0 +1,200 @@
+.main-container-registration {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 90px;
+}
+.div-bg-cart {
+  display: none;
+}
+.mini-container-registration,
+.div-for-information {
+  width: 100%;
+  text-align: left;
+  margin: auto;
+  border-radius: 4px;
+  padding: 20px 15px;
+  border: 1px solid #564a8a;
+  background-color: white;
+}
+.signuptext {
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.p-sign-up {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 5px;
+  color: #483791;
+  border-bottom: 0.5px solid lightgrey;
+}
+label {
+  font-size: 15px;
+  color: rgb(66, 65, 65);
+}
+.div-for-submit {
+  text-align: right;
+  margin: 10px 0px 10px 0px;
+}
+
+.submitBtn {
+  padding: 5px 10px;
+  font-size: 13px;
+  border-radius: 4px;
+  color: white;
+  background-color: #564a8a;
+}
+
+.input-firstname,
+.input-middlename,
+.input-lastname,
+.input-email,
+.input-contactnumber,
+.input-address {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid lightgray;
+}
+.input-firstname:focus,
+.input-middlename:focus,
+.input-lastname:focus,
+.input-email:focus,
+.input-contactnumber:focus,
+.input-address:focus {
+  box-shadow: 0 0 3px 0.001em #6253e9;
+}
+
+.div-for-now-later {
+  text-align: right;
+  margin: 15px 0px 10px 0px;
+}
+.nowBtn,
+.laterBtn {
+  padding: 5px 10px;
+  margin-left: 10px;
+  font-size: 13px;
+  border-radius: 4px;
+  color: white;
+  background-color: #564a8a;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main-container-registration {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 170px;
+  }
+  .div-bg-cart {
+    display: none;
+  }
+  .mini-container-registration,
+  .div-for-information {
+    width: 60%;
+    text-align: left;
+    margin: auto;
+    border-radius: 4px;
+    padding: 20px 15px;
+    border: 1px solid #564a8a;
+    background-color: white;
+  }
+  .signuptext {
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+  }
+  .p-sign-up {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  label {
+    font-size: 15px;
+    color: rgb(66, 65, 65);
+  }
+  .div-for-submit {
+    text-align: right;
+    margin: 15px 0px 10px 0px;
+  }
+
+  .submitBtn {
+    padding: 7px 15px;
+    font-size: 17px;
+    border-radius: 4px;
+    color: white;
+    background-color: #564a8a;
+  }
+
+  .input-firstname,
+  .input-middlename,
+  .input-lastname,
+  .input-email,
+  .input-contactnumber,
+  .input-address {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 17px;
+    border: 1px solid lightgray;
+  }
+  .div-for-now-later {
+    margin: 20px 0px 10px 0px;
+  }
+  .nowBtn,
+  .laterBtn {
+    padding: 7px 15px;
+    margin-left: 10px;
+    font-size: 17px;
+    border-radius: 4px;
+    color: white;
+    background-color: #564a8a;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .mini-container-registration,
+  .div-for-information {
+    width: 30%;
+    min-height: 80vh;
+    padding: 30px 20px;
+    margin: 0;
+    border: none;
+    box-shadow: 0px 0px 3px 1px gray;
+  }
+  .signuptext {
+    font-size: 20px;
+  }
+  label {
+    font-size: 15px;
+  }
+  .div-for-submit {
+    margin: 10px 0px 10px 0px;
+  }
+
+  .submitBtn {
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  .input-firstname,
+  .input-middlename,
+  .input-lastname,
+  .input-email,
+  .input-contactnumber,
+  .input-address {
+    font-size: 15px;
+  }
+  .div-for-now-later {
+    margin: 20px 0px 10px 0px;
+  }
+  .nowBtn,
+  .laterBtn {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,339 @@
+@media only screen and (max-width: 768px) {
+  .main-container-admin {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    margin-top: 90px;
+    background-color: white;
+  }
+  .div-for-addBtns {
+    width: 100%;
+    text-align: right;
+  }
+  .div-for-addBtns button {
+    padding: 5px 10px;
+    margin: 10px 0px 10px 10px;
+    font-size: 11px;
+    color: white;
+    background-color: rgb(48, 51, 231);
+  }
+  .header-admin {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+  }
+  .complete-admin {
+    width: 49%;
+    font-size: 13px;
+  }
+  .pending-admin {
+    width: 49%;
+    font-size: 13px;
+  }
+  .mini-container-admin {
+    width: 100%;
+    background-color: rgb(90, 9, 9);
+  }
+  #div-group-of-orders {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: white;
+  }
+  .div-per-item-admin {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px dotted darkgray;
+    background-color: white;
+  }
+  .div-for-img-admin {
+    width: 50%;
+  }
+  .img-admin {
+    width: 100%;
+  }
+  .div-for-content-admin {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .div-description {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+  }
+  .span {
+    width: 29%;
+    padding: 10px;
+    font-size: 12px;
+    background-color: whitesmoke;
+  }
+  .name-of-item {
+    background-color: whitesmoke;
+    width: 40%;
+  }
+  #div-for-subtotal {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  #span-sub-total {
+    width: 29%;
+  }
+  .div-for-Btn {
+    width: 100%;
+    text-align: right;
+    padding: 5px 10px;
+  }
+  .acceptBtn {
+    padding: 4px 6px;
+    background-color: rgb(48, 51, 231);
+  }
+  .deleteBtn {
+    padding: 4px 6px;
+    background-color: red;
+  }
+
+  .accepted,
+  .shipped {
+    background-color: lime;
+  }
+  .acceptAll-cancel {
+    margin: 10px 0px 15px 0px;
+    padding-right: 20px;
+    /* background-color: darkseagreen; */
+  }
+  #div-for-date {
+    width: 100%;
+    text-align: right;
+    margin-top: 10px;
+    /* background-color: orchid; */
+  }
+  #div-for-date span {
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 2px 5px;
+    border: 2px dotted darkgray;
+    background-color: whitesmoke;
+  }
+}
+/* tab */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main-container-admin {
+    margin-top: 130px;
+  }
+
+  .div-for-addBtns button {
+    font-size: 13px;
+    margin: 10px 0px 10px 10px;
+  }
+  .complete-admin {
+    width: 49%;
+    font-size: 17px;
+  }
+  .pending-admin {
+    width: 49%;
+    font-size: 17px;
+  }
+  .mini-container-admin {
+    width: 49%;
+    background-color: rgb(90, 9, 9);
+  }
+  .div-per-item-admin {
+    align-items: flex-start;
+  }
+  .div-for-img-admin {
+    width: 20%;
+    /* background-color: orangered; */
+  }
+  .img-admin {
+    width: 100%;
+  }
+  .div-for-content-admin {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: orangered; */
+  }
+  .div-description {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+    /* background-color: darkgreen; */
+  }
+  .span {
+    width: 29%;
+    padding: 10px;
+    font-size: 13px;
+    background-color: whitesmoke;
+  }
+  .name-of-item {
+    background-color: whitesmoke;
+    width: 45%;
+  }
+  #div-for-subtotal {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: darkorange; */
+  }
+  #span-sub-total {
+    width: 50%;
+    /* background-color: darksalmon; */
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .main-container-admin {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    margin-top: 85px;
+  }
+  .div-for-addBtns {
+    width: 100%;
+    text-align: right;
+  }
+  .div-for-addBtns button {
+    padding: 5px 10px;
+    margin: 10px 0px 10px 20px;
+    color: white;
+    background-color: rgb(48, 51, 231);
+  }
+  .header-admin {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+  }
+  .complete-admin {
+    width: 49%;
+  }
+  .pending-admin {
+    width: 49%;
+  }
+  .mini-container-admin {
+    width: 49%;
+    background-color: rgb(90, 9, 9);
+  }
+  #div-group-of-orders {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: white;
+  }
+  .div-per-item-admin {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px dotted darkgray;
+    background-color: white;
+  }
+  .div-for-img-admin {
+    width: 20%;
+    /* background-color: orangered; */
+  }
+  .img-admin {
+    width: 100%;
+  }
+  .div-for-content-admin {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: orangered; */
+  }
+  .div-description {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+    /* background-color: darkgreen; */
+  }
+  .span {
+    width: 25%;
+    padding: 10px;
+    background-color: whitesmoke;
+  }
+  .name-of-item {
+    background-color: whitesmoke;
+    width: 49%;
+  }
+  #div-for-subtotal {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: darkorange; */
+  }
+  #span-sub-total {
+    width: 25%;
+    /* background-color: darksalmon; */
+  }
+  .div-for-Btn {
+    width: 100%;
+    text-align: right;
+    padding: 5px 10px;
+  }
+  .acceptBtn {
+    padding: 4px 6px;
+    background-color: rgb(48, 51, 231);
+  }
+  .deleteBtn {
+    padding: 4px 6px;
+    background-color: red;
+  }
+
+  .accepted,
+  .shipped {
+    background-color: lime;
+  }
+  .acceptAll-cancel {
+    margin: 10px 0px 15px 0px;
+    padding-right: 20px;
+    /* background-color: darkseagreen; */
+  }
+  #div-for-date {
+    width: 100%;
+    text-align: right;
+    margin-top: 10px;
+    /* background-color: orchid; */
+  }
+  #div-for-date span {
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 2px 5px;
+    border: 2px dotted darkgray;
+    background-color: whitesmoke;
+  }
+}

@@ -1,0 +1,111 @@
+@media only screen and (max-width: 768px) {
+  .main-container-additem {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .mini-container-additem {
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 1px gray;
+  }
+
+  .input-itemname,
+  .input-itemmaincategory,
+  .input-itemsubcategory,
+  .input-itemquantity,
+  .input-itemprice,
+  .input-itemimage {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 11px;
+    border: 1px solid lightgray;
+  }
+  .div-for-add-image {
+    width: 100%;
+    margin: 5px 0;
+    display: flex;
+  }
+  #add-image-btn {
+    padding: 0 5px;
+    margin-left: 10px;
+    color: white;
+    background-color: rgb(48, 51, 231);
+  }
+  .div-for-addProductBtn {
+    margin: 10px 0px 10px 0px;
+  }
+  .add-itemBtn {
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+  }
+}
+/* tab */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main-container-additem {
+    width: 65%;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .input-itemname,
+  .input-itemmaincategory,
+  .input-itemsubcategory,
+  .input-itemquantity,
+  .input-itemprice,
+  .input-itemimage {
+    font-size: 13px;
+  }
+}
+/* pc */
+@media only screen and (min-width: 992px) {
+  .main-container-additem {
+    width: 50%;
+    padding: 10px;
+    /* background-color: blue; */
+  }
+  .mini-container-additem {
+    width: 100%;
+    padding: 20px 40px 20px 40px;
+    text-align: left;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 1px gray;
+  }
+
+  .input-itemname,
+  .input-itemmaincategory,
+  .input-itemsubcategory,
+  .input-itemquantity,
+  .input-itemprice,
+  .input-itemimage {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid lightgray;
+  }
+  .div-for-add-image {
+    width: 100%;
+    margin: 5px 0;
+    display: flex;
+  }
+  #add-image-btn {
+    padding: 0 5px;
+    margin-left: 10px;
+    color: white;
+    background-color: rgb(48, 51, 231);
+  }
+  .div-for-addProductBtn {
+    margin: 10px 0px 10px 0px;
+  }
+  .add-itemBtn {
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+  }
+}

@@ -1,0 +1,292 @@
+@media only screen and (max-width: 768px) {
+  .mini-container-edit {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+  }
+  .div-for-xBtn-edit {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  #xbtn-edit {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+  }
+
+  .parent {
+    width: 100%;
+    text-transform: uppercase;
+    padding: 2px;
+    background-color: whitesmoke;
+  }
+  .div-for-display-img,
+  .div-for-image-edit {
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  #display-img {
+    width: 60%;
+  }
+  .div-for-src-edit {
+    width: 100%;
+    padding: 5px;
+    text-align: right;
+    background-color: lightgray;
+  }
+  .btns-editItem {
+    padding: 5px 10px;
+    margin-left: 5px;
+    font-size: 11px;
+  }
+
+  .div-for-item-name-edit,
+  .div-for-mainCategory-edit,
+  .div-for-subCategory-edit {
+    width: 100%;
+    text-align: left;
+    /* background-color: hotpink; */
+  }
+  .div-for-quantity-edit,
+  .div-for-price-edit {
+    width: 100%;
+    text-align: left;
+    /* background-color: hotpink; */
+  }
+
+  .div-for-update-cancel-edit {
+    width: 100%;
+    text-align: right;
+    padding: 10px 20px;
+    background-color: lightgray;
+  }
+  .input-item-name-edit,
+  .input-mainCategory-edit,
+  .input-subCategory-edit,
+  .input-quantity-edit,
+  .input-price-edit,
+  .input-image-edit {
+    width: 100%;
+    padding: 5px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+  }
+  .cancelBtn-edit {
+    margin-left: 10px;
+  }
+  .cancelBtn-edit,
+  .updateBtn-edit {
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 11px;
+  }
+}
+/* tab */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .mini-container-edit {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+  }
+  .div-for-xBtn-edit {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  #xbtn-edit {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+  }
+  #xbtn-edit:hover {
+    background-color: lightgray;
+  }
+  .parent {
+    width: 49.5%;
+    text-transform: uppercase;
+    padding: 2px;
+    background-color: whitesmoke;
+  }
+  .div-for-display-img,
+  .div-for-image-edit {
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: left;
+    text-transform: uppercase;
+    /* background-color: darkgoldenrod; */
+  }
+  #display-img {
+    width: 60%;
+  }
+  .div-for-src-edit {
+    width: 100%;
+    padding: 5px;
+    text-align: right;
+    background-color: lightgray;
+  }
+  .btns-editItem {
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 13px;
+  }
+
+  .div-for-item-name-edit,
+  .div-for-mainCategory-edit,
+  .div-for-subCategory-edit {
+    width: 100%;
+    text-align: left;
+    /* background-color: hotpink; */
+  }
+  .div-for-quantity-edit,
+  .div-for-price-edit {
+    width: 100%;
+    text-align: left;
+    /* background-color: hotpink; */
+  }
+
+  .div-for-update-cancel-edit {
+    width: 100%;
+    text-align: right;
+    padding: 10px 20px;
+    background-color: lightgray;
+  }
+  .input-item-name-edit,
+  .input-mainCategory-edit,
+  .input-subCategory-edit,
+  .input-quantity-edit,
+  .input-price-edit,
+  .input-image-edit {
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+  }
+  .cancelBtn-edit {
+    margin-left: 10px;
+  }
+  .cancelBtn-edit,
+  .updateBtn-edit {
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 13px;
+  }
+}
+
+/* pc */
+@media only screen and (min-width: 992px) {
+  .mini-container-edit {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+  }
+  .div-for-xBtn-edit {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  #xbtn-edit {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+  }
+  #xbtn-edit:hover {
+    background-color: lightgray;
+  }
+  .parent {
+    width: 49.5%;
+    text-transform: uppercase;
+    padding: 2px;
+    background-color: whitesmoke;
+  }
+  .div-for-display-img,
+  .div-for-image-edit {
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: left;
+    text-transform: uppercase;
+    /* background-color: darkgoldenrod; */
+  }
+  #display-img {
+    width: 60%;
+  }
+  .div-for-src-edit {
+    width: 100%;
+    padding: 5px;
+    text-align: right;
+    background-color: lightgray;
+  }
+  .btns-editItem {
+    padding: 5px 10px;
+    margin-left: 10px;
+  }
+
+  .div-for-item-name-edit,
+  .div-for-mainCategory-edit,
+  .div-for-subCategory-edit {
+    width: 100%;
+    text-align: left;
+    /* background-color: hotpink; */
+  }
+  .div-for-quantity-edit,
+  .div-for-price-edit {
+    width: 100%;
+    text-align: left;
+    /* background-color: hotpink; */
+  }
+
+  .div-for-update-cancel-edit {
+    width: 100%;
+    text-align: right;
+    padding: 10px 20px;
+    background-color: lightgray;
+  }
+  .input-item-name-edit,
+  .input-mainCategory-edit,
+  .input-subCategory-edit,
+  .input-quantity-edit,
+  .input-price-edit,
+  .input-image-edit {
+    width: 100%;
+    padding: 5px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+  }
+  .cancelBtn-edit {
+    margin-left: 10px;
+  }
+  .cancelBtn-edit,
+  .updateBtn-edit {
+    padding: 5px 10px;
+    margin-left: 10px;
+  }
+}

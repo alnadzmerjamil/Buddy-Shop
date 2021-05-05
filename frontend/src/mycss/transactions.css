@@ -1,0 +1,220 @@
+@media only screen and (max-width: 768px) {
+  .main-container-transaactions {
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 90px;
+    padding: 10px;
+  }
+
+  .header-transactions {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  .header-transactions div {
+    font-size: 13px;
+  }
+  .my-purchase-text {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+  }
+  .mini-container-transactions {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2px;
+  }
+  .div-per-item-transaction {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0px 5px 5px 0px;
+    background-color: whitesmoke;
+
+    padding: 10px;
+  }
+  .div-for-img {
+    width: 50%;
+  }
+  .img-transactions {
+    width: 100%;
+  }
+  .div-for-content-transactions {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .div-for-content-transactions span {
+    width: 100%;
+    font-size: 13px;
+    margin-top: 2px;
+    background-color: lightgray;
+  }
+  .strong-transaction {
+    width: 100%;
+    background-color: lightgray;
+  }
+  .span-quantity {
+    font-size: 14px;
+  }
+  .div-for-date {
+    width: 100%;
+    padding: 2px 4px;
+    margin-top: 2px;
+    font-size: 14px;
+    text-align: right;
+    background-color: lightgray;
+  }
+
+  .div-for-receive-btn {
+    width: 100%;
+    padding: 10px 4px;
+    font-size: 14px;
+    text-align: right;
+  }
+  #receivedBtn,
+  #cancelBtn {
+    padding: 3px 5px;
+    background-color: rgb(199, 25, 25);
+  }
+}
+/* tab */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main-container-transaactions {
+    margin-top: 130px;
+  }
+  .my-purchase-text {
+    font-size: 15px;
+  }
+  .header-transactions div {
+    font-size: 14px;
+  }
+  .mini-container-transactions {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2px;
+  }
+  .div-per-item-transaction {
+    width: 48.5%;
+  }
+
+  .div-for-content-transactions span {
+    font-size: 13px;
+  }
+  .strong-transaction {
+    width: 100%;
+    background-color: lightgray;
+  }
+  .span-quantity {
+    font-size: 14px;
+  }
+}
+
+/* pc */
+@media only screen and (min-width: 991px) {
+  .main-container-transaactions {
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 85px;
+    padding: 10px;
+  }
+  .my-purchase-text {
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    text-align: left;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+  }
+  .header-transactions {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  .mini-container-transactions {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2px;
+  }
+  .div-per-item-transaction {
+    width: 24%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0px 5px 5px 0px;
+    background-color: whitesmoke;
+
+    padding: 10px;
+  }
+  .div-for-img {
+    width: 50%;
+  }
+  .img-transactions {
+    width: 100%;
+  }
+  .div-for-content-transactions {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .div-for-content-transactions span {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 2px;
+    background-color: lightgray;
+  }
+  .strong-transaction {
+    width: 100%;
+    background-color: lightgray;
+  }
+  .span-quantity {
+    font-size: 14px;
+  }
+  .div-for-date {
+    width: 100%;
+    padding: 2px 4px;
+    margin-top: 2px;
+    font-size: 14px;
+    text-align: right;
+    background-color: lightgray;
+  }
+
+  .div-for-receive-btn {
+    width: 100%;
+    padding: 10px 4px;
+    font-size: 14px;
+    text-align: right;
+  }
+  #receivedBtn,
+  #cancelBtn {
+    padding: 3px 5px;
+    background-color: rgb(199, 25, 25);
+  }
+}

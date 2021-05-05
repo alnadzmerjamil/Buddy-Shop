@@ -1,0 +1,258 @@
+.main-container-items {
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+  margin-top: 90px;
+}
+.mini-container-items {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: whitesmoke;
+  padding: 10px;
+}
+.title-on-top {
+  text-align: left;
+  padding: 10px;
+  font-size: 15px;
+  color: #564a8a;
+}
+.div-per-item-items {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+  background-color: whitesmoke;
+}
+.div-for-item-content {
+  width: 100%;
+  padding-bottom: 10px;
+  background-color: white;
+}
+.div-for-figure {
+  width: 100%;
+}
+.figure-items {
+  width: 100%;
+}
+.img-items {
+  width: 100%;
+}
+.figcaption-items {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 13px;
+  padding-left: 5px;
+  color: lightslategray;
+}
+.small-item-price {
+  width: 46%;
+  text-align: left;
+}
+.input-quantity-on-item {
+  width: 46%;
+  text-align: right;
+  padding-right: 15px;
+  color: #685f90;
+}
+
+.div-for-item-btns {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 10px 0;
+}
+.div-for-adminBtn,
+.div-for-userBtn {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.div-for-item-btns button {
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  color: lightgray;
+  margin-bottom: 5px;
+  background-color: #564a8a;
+}
+
+/* tab */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main-container-items {
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    margin-top: 130px;
+  }
+  .mini-container-items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: whitesmoke;
+    padding: 10px;
+  }
+  .title-on-top {
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+  }
+  .div-per-item-items {
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    background-color: whitesmoke;
+  }
+  .div-for-item-content {
+    width: 100%;
+    padding-bottom: 10px;
+    background-color: white;
+  }
+  .div-for-figure {
+    width: 100%;
+  }
+  .figure-items {
+    width: 100%;
+  }
+  .img-items {
+    width: 100%;
+  }
+  .figcaption-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 17px;
+    padding-left: 5px;
+  }
+  .small-item-price {
+    width: 46%;
+    text-align: left;
+  }
+  .input-quantity-on-item {
+    width: 46%;
+    text-align: right;
+    padding-right: 17px;
+  }
+
+  .div-for-item-btns {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0;
+    /* background-color: violet; */
+  }
+  .div-for-adminBtn,
+  .div-for-userBtn {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .div-for-item-btns button {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    color: white;
+  }
+}
+
+/* pc */
+@media only screen and (min-width: 992px) {
+  .main-container-items {
+    padding: 10px;
+    width: 100%;
+    margin-top: 85px;
+    background-color: white;
+  }
+  .mini-container-items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: whitesmoke;
+  }
+  .title-on-top {
+    text-align: left;
+    font-size: 15px;
+    margin: 10px 0px 15px 20px;
+  }
+  .div-per-item-items {
+    width: 16.6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: whitesmoke;
+  }
+  .div-for-item-content {
+    width: 100%;
+    padding-bottom: 10px;
+    background-color: white;
+  }
+  .div-for-figure {
+    width: 100%;
+  }
+  .figure-items {
+    width: 100%;
+  }
+  .img-items {
+    width: 100%;
+  }
+  .figcaption-items {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 16px;
+    padding-left: 5px;
+  }
+  .small-item-price {
+    width: 46%;
+    text-align: left;
+  }
+  .input-quantity-on-item {
+    width: 46%;
+    text-align: right;
+    padding-right: 15px;
+  }
+
+  .div-for-item-btns {
+    width: 100%;
+    padding: 15px 5px 15px;
+  }
+  .div-for-adminBtn,
+  .div-for-userBtn {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .div-for-item-btns button {
+    padding: 5px 10px;
+    background-color: #695e99;
+  }
+  .orderBtn:hover {
+    color: lightgray;
+    background-color: #4e4186;
+  }
+}

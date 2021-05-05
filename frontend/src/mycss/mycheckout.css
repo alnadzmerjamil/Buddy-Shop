@@ -1,0 +1,682 @@
+@media only screen and (max-width: 767px) {
+  .main-container-mycheckout {
+    width: 100%;
+    margin: auto;
+    margin-top: 90px;
+    padding: 2px;
+    background-color: white;
+  }
+  .mini-container-mycheckout {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+  .mycheckout-text {
+    width: 100%;
+    text-align: left;
+    padding: 0 0 10px 0;
+    font-weight: bolder;
+    color: #564a8a;
+  }
+  .div-for-user-info {
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+    background-color: whitesmoke;
+  }
+  .div-per-item-check-out {
+    padding: 10px;
+  }
+  .item-name {
+    width: 70%;
+    font-size: 15px;
+    padding: 8px 0 0 15px;
+  }
+
+  .item-quantity {
+    top: 48px;
+    left: 32%;
+    padding-left: 15px;
+  }
+
+  .item-quantity small::before {
+    content: 'x   ';
+    display: inline;
+  }
+  .item-price {
+    top: 68px;
+    left: 32%;
+    padding-left: 15px;
+  }
+  .item-price small {
+    font-size: 12px;
+  }
+  .div-for-more-details {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+  }
+  .message-to-seller {
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    background-color: whitesmoke;
+  }
+  .lblmessage,
+  .input-message {
+    width: 100%;
+    padding: 10px;
+    margin-top: 2px;
+  }
+  .input-message {
+    background-color: white;
+  }
+  .div-for-shipping {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border: 1px dotted gray;
+  }
+  .div-for-shipping div {
+    font-size: 13px;
+  }
+  .input-courier,
+  .input-mode-of-payment,
+  .input-type-of-delivery {
+    width: 100%;
+    padding: 5px 0px;
+    margin-top: 5px;
+    font-size: 11px;
+    border: 1px solid lightgray;
+  }
+  .lblshipping-option {
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid lightgray;
+  }
+
+  .div-for-courier {
+    width: 35%;
+    margin: 5px 0px;
+    text-align: left;
+  }
+  .div-for-delivery {
+    width: 64%;
+    margin: 5px 0px 5px 0px;
+    text-align: left;
+  }
+  .div-for-mode-of-payment {
+    width: 100%;
+    text-align: left;
+  }
+
+  .div-for-sf {
+    width: 100%;
+    text-align: right;
+    font-family: monospace;
+    padding: 10px;
+    background-color: whitesmoke;
+  }
+  .lbl-sf {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 5px;
+    text-align: right;
+  }
+  #totalSf {
+    font-size: 15px;
+  }
+  .div-for-place-order {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 10px;
+    border-top: 1px solid lightgray;
+    background-color: whitesmoke;
+  }
+  .lbltotal {
+    width: 100%;
+    font-size: 17px;
+    text-align: right;
+    font-family: monospace;
+  }
+  .div-for-cancel-and-placeorder {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: right;
+  }
+  .place-orderBtn {
+    margin-left: 10px;
+  }
+
+  .place-orderBtn,
+  .cancel-btn {
+    width: 70px;
+    min-height: 25px;
+    line-height: 25px;
+    font-size: 10px;
+    border-radius: 5px;
+    color: lightgray;
+    background-color: #685f90;
+  }
+
+  /* user infrmation */
+  .div-for-user-information {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(82, 80, 80, 0.9);
+    transform: translate(-50%, -50%);
+    z-index: 100;
+  }
+  .div-user-info-content {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px black;
+    background-color: white;
+  }
+
+  .el {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2px;
+  }
+  .input-user-info {
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    color: grey;
+    border: 1px solid lightgray;
+  }
+  .input-user-info:focus {
+    box-shadow: 0 0 3px 0.001em #6253e9;
+  }
+  .div-ok-cancel {
+    text-align: right;
+  }
+  .btn-user-info {
+    padding: 5px 10px;
+    margin: 20px 10px 0 0;
+    border-radius: 4px;
+    color: lightgray;
+    background-color: #564a8a;
+  }
+  .user-information-text {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    color: #463888;
+    border-bottom: 1px solid lightgray;
+  }
+}
+/* tab */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main-container-mycheckout {
+    margin-top: 130px;
+  }
+
+  .mini-container-mycheckout {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+  .mycheckout-text {
+    width: 100%;
+    text-align: left;
+    padding: 10px 0 10px 0;
+    font-weight: bolder;
+    font-size: 17px;
+    color: #564a8a;
+  }
+  .div-for-user-info {
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+    background-color: whitesmoke;
+  }
+  .item-name {
+    width: 70%;
+    font-size: 17px;
+    padding: 5px 0 0 15px;
+  }
+
+  .item-quantity {
+    top: 50px;
+    left: 32%;
+    padding-left: 17px;
+  }
+
+  .item-quantity small::before {
+    content: 'x   ';
+    display: inline;
+  }
+  .item-price {
+    top: 75px;
+    left: 32%;
+    padding-left: 15px;
+  }
+  .item-price small {
+    font-size: 15px;
+  }
+  .div-for-more-details {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+  }
+  .message-to-seller {
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    background-color: whitesmoke;
+  }
+  .lblmessage,
+  .input-message {
+    width: 100%;
+    font-size: 17px;
+    padding: 10px;
+    margin-top: 2px;
+  }
+  .input-message {
+    background-color: white;
+  }
+  .div-for-shipping {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border: 1px dotted gray;
+  }
+  .div-for-shipping div {
+    font-size: 17px;
+  }
+  .input-courier,
+  .input-mode-of-payment,
+  .input-type-of-delivery {
+    width: 100%;
+    padding: 5px 0px;
+    margin-top: 5px;
+    font-size: 13px;
+    border: 1px solid lightgray;
+  }
+  .lblshipping-option {
+    width: 100%;
+    font-size: 17px;
+    text-align: left;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid lightgray;
+  }
+
+  .div-for-courier {
+    width: 35%;
+    margin: 5px 0px;
+    text-align: left;
+  }
+  .div-for-delivery {
+    width: 64%;
+    margin: 5px 0px 5px 0px;
+    text-align: left;
+  }
+  .div-for-mode-of-payment {
+    width: 100%;
+    text-align: left;
+  }
+
+  .div-for-sf {
+    width: 100%;
+    text-align: right;
+    font-family: monospace;
+    padding: 10px;
+    background-color: whitesmoke;
+  }
+  .lbl-sf {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 5px;
+    text-align: right;
+    font-size: 15px;
+  }
+  #totalSf {
+    font-size: 17px;
+  }
+  .div-for-place-order {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 10px;
+    border-top: 1px solid lightgray;
+    background-color: whitesmoke;
+  }
+  .lbltotal {
+    width: 100%;
+    font-size: 20px;
+    text-align: right;
+    font-family: monospace;
+  }
+  .div-for-cancel-and-placeorder {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: right;
+  }
+  .place-orderBtn {
+    margin-left: 10px;
+  }
+
+  .place-orderBtn,
+  .cancel-btn {
+    width: 80px;
+    min-height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    border-radius: 5px;
+    color: lightgray;
+    background-color: #685f90;
+  }
+
+  /* user infrmation */
+  .div-for-user-information {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(82, 80, 80, 0.9);
+    z-index: 100;
+  }
+  .div-user-info-content {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px black;
+    background-color: white;
+  }
+
+  .el {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2px;
+  }
+  .input-user-info {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid gray;
+  }
+  .btn-user-info {
+    padding: 5px;
+    margin: 20px 10px 0 0;
+  }
+  .btn-user-info {
+    padding: 5px 10px;
+    margin: 20px 10px 0 0;
+    color: lightgray;
+    background-color: #564a8a;
+  }
+
+  .user-information-text {
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    border-bottom: 1px solid gray;
+  }
+}
+
+/* pc */
+@media only screen and (min-width: 992px) {
+  .main-container-mycheckout {
+    margin-top: 85px;
+  }
+
+  .main-container-mycheckout {
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    background-color: white;
+  }
+  .mini-container-mycheckout {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+  .mycheckout-text {
+    width: calc(80% - 5px);
+    text-align: left;
+    padding: 10px 0 10px 0;
+    font-weight: bolder;
+    color: #564a8a;
+  }
+  .div-for-user-info {
+    width: calc(19% + 5px);
+    text-align: left;
+    margin: 5px 0px 5px 1%;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    background-color: whitesmoke;
+  }
+  #description-bar {
+    width: 100%;
+  }
+  .div-for-more-details {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 20px 0;
+    margin-top: 20px;
+    background-color: whitesmoke;
+  }
+  .message-to-seller {
+    width: 40%;
+    text-align: left;
+    padding: 20px;
+    /* background-color: rgb(182, 36, 36); */
+  }
+  .lblmessage,
+  .input-message {
+    width: 100%;
+    padding: 10px;
+    margin-top: 2px;
+  }
+
+  .div-for-shipping {
+    width: 39%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border: 1px dotted gray;
+    /* background-color: rgb(182, 36, 36); */
+  }
+  .input-courier,
+  .input-mode-of-payment,
+  .input-type-of-delivery {
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: 5px;
+    border: 1px solid lightgray;
+  }
+  .lblshipping-option {
+    width: 100%;
+    text-align: left;
+  }
+  .lblshipping-option {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid lightgray;
+  }
+
+  .div-for-courier {
+    width: 35%;
+    margin: 5px 0px;
+    text-align: left;
+  }
+  .div-for-delivery {
+    width: 64%;
+    margin: 5px 0px 5px 0px;
+    text-align: left;
+  }
+  .div-for-mode-of-payment {
+    width: 100%;
+    text-align: left;
+  }
+
+  .div-for-sf {
+    width: 19%;
+    text-align: left;
+    padding: 10px;
+  }
+  .lbl-sf {
+    width: 100%;
+    text-align: left;
+  }
+  #totalSf {
+    font-size: 20px;
+  }
+  .div-for-place-order {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 10px;
+    border-top: 1px solid lightgray;
+    background-color: whitesmoke;
+  }
+  .lbltotal {
+    width: 100%;
+    font-size: 25px;
+    text-align: right;
+    font-family: monospace;
+  }
+  .div-for-cancel-and-placeorder {
+    width: 25%;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .place-orderBtn {
+    margin-left: 10px;
+  }
+  .cancel-btn:hover {
+    background-color: #5e5196;
+  }
+  .place-orderBtn:hover {
+    background-color: #5e5196;
+  }
+  .place-orderBtn,
+  .cancel-btn {
+    width: 100px;
+    min-height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: lightgray;
+    background-color: #685f90;
+  }
+
+  /* user infrmation */
+  .div-for-user-information {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(82, 80, 80, 0.9);
+    z-index: 100;
+  }
+  .div-user-info-content {
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px black;
+    background-color: white;
+  }
+
+  .el {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2px;
+  }
+  .input-user-info {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid gray;
+  }
+  .btn-user-info {
+    padding: 5px;
+    margin: 20px 10px 0 0;
+  }
+  .btn-user-info {
+    padding: 5px 10px;
+    margin: 20px 10px 0 0;
+    color: lightgray;
+    background-color: #564a8a;
+  }
+
+  .user-information-text {
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    border-bottom: 1px solid gray;
+  }
+}
